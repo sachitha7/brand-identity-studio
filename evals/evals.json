@@ -1,0 +1,17 @@
+{
+  "skill_name": "brand-identity-studio",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're a small skincare studio called Sundew Botanicals, just outside Portland. We finally got a logo made (attached, it's a diamond-leaf mark in a circle) and now need actual brand guidelines before our packaging goes to print next month — our colour palette, the fonts we should use, and I really need to SEE the logo on our actual product before I sign off: a glass jar and the shipping box it goes out in. Keep it fairly minimal/botanical, we're not trying to look like a luxury French skincare brand, just clean and trustworthy.",
+      "expected_output": "A brand book (HTML source + exported PDF) with a named colour palette sampled/derived consistently, primary and secondary typefaces specified, and at least two application mockups (a product jar and a shipping box) showing the provided Sundew logo composited convincingly — correct proportions, no garbled text, no visible seams or stretching — photoreal rather than a flat CSS drawing.",
+      "files": ["evals/files/sundew-logo.png"]
+    },
+    {
+      "id": 2,
+      "prompt": "hey can you put together some quick brand guidelines for my coffee roastery, Ember & Oak? logo's attached (hexagon with a flame/diamond shape). we roast small batch, sell mostly at farmers markets and to a couple local cafes right now. need to see how the logo looks on a coffee bag and on a staff apron since i'm ordering both this week and want to make sure it doesn't look weird before i commit to a print run",
+      "expected_output": "A brand book (HTML source + exported PDF) with a warm, roastery-appropriate palette and type system, and photoreal mockups of the provided Ember & Oak logo on a coffee bag and a staff apron — correct logo reproduction, real material shading (paper grain / fabric), no distortion.",
+      "files": ["evals/files/emberoak-logo.png"]
+    }
+  ]
+}
